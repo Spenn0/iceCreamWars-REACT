@@ -1,0 +1,24 @@
+.chocolateGraph {
+    display:flex;
+    background-color: rgb(135, 93, 60);
+    height: 50px;  
+    justify-content: center;
+    align-items: center;
+
+}
+.vanillaGraph {
+    display: flex;
+    background-color:antiquewhite;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.strawberryGraph {
+    display: flex;
+    background-color: rgb(230, 90, 90);
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
