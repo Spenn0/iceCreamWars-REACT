@@ -49,7 +49,7 @@ function AdDesigner() {
 
     return (
         <div className="ad-container">
-            <h2>Ad Designer</h2>
+            <h2 className="heading">Ad Designer</h2>
             <div className="ad" style={userStyles.lightDark}>
                 <p style={{fontSize: fontSize + "px"}}>Vote For</p>
                 <p className="iceCreamType" style={{fontSize: fontSize + "px"}}>{ iceCreamType }</p>

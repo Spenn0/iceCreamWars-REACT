@@ -55,7 +55,7 @@ function Votes(){
     return(
         <div className="voteSection">
             <div className="whatToSupport">
-                <h3>What To Support</h3>
+                <h3>Vote Here</h3>
                 {/* <Button iceCreamType="Chocolate"></Button> */}
                 <button onClick={() => setChocolateVote(prev => prev + 1)}>Chocolate</button>
                 <button onClick={() => setVanillaVote(prev => prev + 1)}>Vanilla</button>

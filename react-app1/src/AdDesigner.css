@@ -1,0 +1,9 @@
+.heading {
+    font-family: caveat;
+}
+.ad {
+    border: 1px #222 solid;
+}
+.button:active{
+    background-color:#1e60a9;
+}
