@@ -1,8 +1,10 @@
 import React from 'react';
 import { useState} from 'react';
 import Button from './Button';
-import './AdDesigner.css';
+// import './AdDesigner.css';
+import "./AdDesigner.css";
 import { render } from '@testing-library/react';
+import Ad from './components/Ad'
 
 
 function AdDesigner() {
@@ -35,25 +37,11 @@ function AdDesigner() {
         console.log(fontSize)
     }
 
-    const userStyles = {
-        lightDark:{
-            backgroundColor: colorTheme ? "white" : "black",
-            color: colorTheme ? "black" : "white",
-        }
-    }
-
-        // let fontSizeStyle = {
-        //     fontsize: fontSize + "px;"
-        // };
-    
 
     return (
         <div className="ad-container">
             <h2 className="heading">Ad Designer</h2>
-            <div className="ad" style={userStyles.lightDark}>
-                <p style={{fontSize: fontSize + "px"}}>Vote For</p>
-                <p className="iceCreamType" style={{fontSize: fontSize + "px"}}>{ iceCreamType }</p>
-            </div>
+            <Ad flavor={iceCreamType} adFontSize = {fontSize} theme={colorTheme} />
             <div className="whatToSupport">
                 <h3>What To Support</h3>
                 {/* <Button iceCreamType="Chocolate"></Button> */}

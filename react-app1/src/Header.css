@@ -7,3 +7,8 @@ h1 {
     color: #0e3c7e;
     box-shadow: inset;
 }
+
+.welcomeName {
+    display: flex;
+    justify-content: flex-end;
+}
